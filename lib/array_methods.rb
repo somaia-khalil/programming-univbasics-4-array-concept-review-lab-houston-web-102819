@@ -20,8 +20,9 @@ end
 def find_min_value(array)
   min = arry[0]
   arry.length.times do |count|
-    if arry[count] < min
+    if array[count] < min
       min = arry[count]
+
       
   end
   end
